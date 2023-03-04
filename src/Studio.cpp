@@ -14,7 +14,7 @@
 using std::ifstream;
 
 Studio::Studio():open(true){}
-Studio::Studio(const std::string &configFilePath):open(true){ // help us to run this method
+Studio::Studio(const std::string &configFilePath):open(true){ 
     int  counter=0;
     std::ifstream file(configFilePath);
     int workout_id =0;
